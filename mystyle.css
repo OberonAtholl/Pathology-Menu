@@ -1,0 +1,136 @@
+.wrapper {
+	position:relative;
+	top: 5vh;
+	left:5vw;
+	width:90vw;
+	min-width:414px;
+	height:55.6vw;
+	min-height:256px;
+	float:left;
+	max-height:90vh;
+	max-width:145.6vh;
+}
+.containerTiles {
+	position:absolute;
+	width: calc(100% - 114px - 1vw);
+	height: 100%;
+}
+.containerUKAS {
+	position:absolute;
+	width:114px;
+	height:100%;
+	right:0%;
+	top:0%;
+}
+.containerButtons {
+	width:100%;
+	position:absolute;
+	top:300px;
+	height:140px;
+}
+.Tile {
+	position:absolute;
+	width: 49%;
+	height: 49%;
+}
+.imgTile {
+	width:100%;
+	height:100%;
+}
+.imgUKAS {
+	width:100%;
+	height:149px;
+}
+.txtUKAS {
+	position:absolute;
+	top:150px;
+	width:100%;
+	height:150px;
+	text-align:center;
+	font-family:"Arial Narrow", Arial, Sans-Serif;
+}
+.tLT {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.tLT:hover .bLT {
+	background-color:#aaaaaa;
+}
+.tRT {
+	position:absolute;
+	top:0%;
+	right:0%;
+}
+.tRT:hover .bRT {
+	background-color:#aaaaaa;
+}
+.tLB {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.tLB:hover .bLB {
+	background-color:#aaaaaa;
+}
+.tRB {
+	position:absolute;
+	bottom:0%;
+	right:0%;
+}
+.tRB:hover .bRB {
+	background-color:#aaaaaa;
+}
+.Banner {
+	position:absolute;
+	background-color:#777777;
+	width:100%;
+	font-family:"Arial Narrow", Arial, Sans-Serif;
+	text-align:center;
+	padding-bottom:1vh;
+	padding-top:1vh;
+	color:white;
+	bottom:0px;
+	font-size: 1.2em;
+}
+.Button {
+	background-color:#777777;
+	text-align:center;
+	width:calc(100% - 4px);
+	color:white;
+	font-size: 14px;
+	padding-top:6px;
+	padding-bottom:6px;
+	border:solid 2px;
+	border-color:#aaaaaa;
+	font-family:"Arial Narrow", Arial, Sans-Serif;
+}
+.btn1 {
+	position:absolute;
+	top:0px;
+}
+.btn1:hover {
+	background-color: #aaaaaa;
+}
+.btn2 {
+	position:absolute;
+	top:35px;
+}
+.btn2:hover {
+	background-color: #aaaaaa;
+}
+.btn3 {
+	position:absolute;
+	top:70px;
+}
+.btn3:hover {
+	background-color: #aaaaaa;
+}
+.btn4 {
+	position:absolute;
+	top:105px;
+}
+.btn4:hover {
+	background-color: #aaaaaa;
+}
+
